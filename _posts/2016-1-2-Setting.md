@@ -4,7 +4,7 @@ title:  Linux Setting
 ---
 민트 리눅스 개발 환경 구축
 
->>JAVA
+>자바
 
 - opjdk remove
 sudo apt-get purge openjdk-\*
@@ -20,7 +20,7 @@ unzip /usr/local/apache-tomcat-8.0.30
 sudo ln -s apache-tomcat-8.0.30/ tomcat8
 
 
->>DASOM 입력기
+>다솜 입력기
 
 https://github.com/dasom-im/dasom/releases/tag/1.2 : download
 
@@ -42,7 +42,7 @@ chsh -s /usr/bin/zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 .zshrc 편집 ZSH_THEME="ys"
 
->>python
+>파이썬
 
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev
