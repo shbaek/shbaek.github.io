@@ -56,13 +56,14 @@ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
 
 .zshrc add 
+\`
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/java/bin:/usr/local/tomcat8/bin"
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
+\`
 
 - pyenv install 2.7.10, pyenv install 3.5.0 
 
